@@ -10,4 +10,6 @@ data class Dish(
     val description: String,
     val image_url: String,
     val tegs: List<String>
-)
+): ListItems {
+    override val itemId: Int = id
+}

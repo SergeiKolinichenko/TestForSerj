@@ -6,4 +6,6 @@ data class CategoryDishes(
     val id: Int,
     val name: String,
     val image_url: String
-)
+): ListItems {
+    override val itemId: Int = id
+}
