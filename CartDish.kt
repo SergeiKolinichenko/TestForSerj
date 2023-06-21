@@ -2,7 +2,7 @@ package com.test.testforserj.models
 
 /** Created by Sergei Kolinichenko on 10.06.2023 at 17:46 (GMT+3) **/
 
-data class CartDishes(
+data class CartDish(
     val id: Int,
     val name: String,
     val price: Int,
